@@ -1,8 +1,8 @@
-package refactoring_guru.abstract_factory.example.checkboxes;/**
-  *
-  *
-  * @author jacky.yu
-  * @since 2022/10/28
+package refactoring_guru.abstract_factory.example.checkboxes;
+
+/**
+ * Checkboxes is the second product family. It has the same variants as buttons.
  */
-public class Checkbox {
+public interface Checkbox {
+    void paint();
 }

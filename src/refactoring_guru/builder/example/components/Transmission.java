@@ -1,8 +1,8 @@
-package refactoring_guru.builder.example.components;/**
-  *
-  *
-  * @author jacky.yu
-  * @since 2022/10/28
+package refactoring_guru.builder.example.components;
+
+/**
+ * Just another feature of a car.
  */
-public class Transmission {
+public enum Transmission {
+    SINGLE_SPEED, MANUAL, AUTOMATIC, SEMI_AUTOMATIC
 }

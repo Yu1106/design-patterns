@@ -1,8 +1,7 @@
-package refactoring_guru.decorator.example.decorators;/**
-  *
-  *
-  * @author jacky.yu
-  * @since 2022/10/28
- */
-public class DataSource {
+package refactoring_guru.decorator.example.decorators;
+
+public interface DataSource {
+    void writeData(String data);
+
+    String readData();
 }
